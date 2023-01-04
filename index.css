@@ -1,0 +1,93 @@
+body{
+    height: 100vh;
+    background: url(bgimg.jpg) no-repeat;
+    
+    background-size: cover;
+    background-position:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container form input[type="button"].total {
+    /* width: calc(400px-85px); */
+    width: 180px;
+    height: 50px;
+    margin-bottom: 2px;
+    border: 2px;
+    
+    
+    background: rgba(255, 0, 0, 0.5);
+    color: #fff;
+  }
+
+.container{
+    display: grid;
+    place-items:center;
+    background-color: rgba(0, 0, 0,.5);
+    
+
+    height: 450px;
+    width: 400px;
+    border-radius: .5 rem;
+    box-shadow: 0 0 1rem  #333;
+    
+}
+
+.container h2{
+    margin-bottom: 0px;
+    font-style: italic;
+    color:azure;
+}
+
+
+
+    .container form{
+        height:500px ;
+        width:400px;
+        padding: 3px;
+        margin-left: 5px;
+        
+    }
+   
+    .container form input[type="text"]{
+        width: 380px;
+        height:50px;
+        border: none;
+        outline: none;
+        background-color: rgba(0, 0, 0,.5);
+        color: beige;
+        font-size: 2.5rem;
+        padding: 2px;
+        margin:1rem 0;
+
+    }
+   
+    .container form input[type="button"]{
+        border:none;
+        outline:none;
+        height:50px;
+        width:85px;
+        margin:3px;
+        background: rgba(255,255,255,.7);
+        cursor: pointer;
+        color: #333;
+        font-size:25px;
+        align-items: center;
+
+        
+
+        
+    }
+    
+    .container form input[type="button"]:active {
+        background: rgba(0, 0, 0, 0.5);
+        color: #fff;
+      }
+    
+      
+      
+      .container form input[type="button"].total:active {
+        background: rgba(0, 0, 0, 0.5);
+      }
+
